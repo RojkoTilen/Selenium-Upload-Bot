@@ -1,5 +1,5 @@
 # SELENIUM UPLOAD BOT
-### Aplikacija, ki omogoča samodejno overjanje, ter urejenje in nalaganje datotek na spletno rešitev AudioJungle.
+### Aplikacija, ki omogoča samodejno overjanje uporabnika, ter urejenje in nalaganje datotek na spletno rešitev AudioJungle.
 
 Iz poljubno določenega direktorija se dinamično preberejo vse mape, nato pa program datoteke posameznih map iterativno nalaga na portal AudioJungle. To poteka tako, da se ustvari imenik z vsemi pripadajočimi datotekami posamezne mape. Tekstovna datoteka predstavlja hitrost glasbe v udarcih na minuto, posamezne MP3 datoteke se dinamično preberejo, iz njih pa se ustvari imenik dolžin MP3 datotek, iz ZIP datoteke se prebere naslov skladbe, MP3 datoteka, zaščitena z vodnim žigom pa se razbere v kolikor je v imenu MP3 datoteke beseda ''Watermark''. Iz ustvarjenega imenika se na podlagi števila map v direktoriju, ki ga podamo, začne nalaganje na AudioJungle. Za nalaganje uporabljamo Selenium knjižnico. Na podlagi imena skladbe se pravilno izbere žanr ter pripadajoči opis.
 
